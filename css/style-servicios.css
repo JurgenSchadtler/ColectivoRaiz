@@ -1,0 +1,144 @@
+body {
+  background-image: url(../img/Pantalla-Servicios.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover; 
+  background-attachment: fixed;
+}
+
+/*nav-links*/
+#inicio{
+  background-color: #d21362;
+  color: #ffffff;
+  font-family: 'Saira Stencil One', cursive;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+#servicios{
+  background-color: #003d59;
+  color: #ffffff;
+  font-family: 'Saira Stencil One', cursive;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+#medios{
+background-color: #d21362;
+color: #ffffff;
+font-family: 'Saira Stencil One', cursive;
+margin-top: 10px;
+margin-bottom: 10px;
+margin-right: 10px;
+padding-top: 0px;
+padding-bottom: 0px;
+}
+
+#calculadora{
+background-color: #d21362;
+color: #ffffff;
+font-family: 'Saira Stencil One', cursive;
+margin-top: 10px;
+margin-bottom: 10px;
+margin-right: 10px;
+padding-top: 0px;
+padding-bottom: 0px;
+}
+
+#tienda{
+background-color: #d21362;
+color: #ffffff;
+font-family: 'Saira Stencil One', cursive;
+margin-top: 10px;
+margin-bottom: 10px;
+margin-right: 10px;
+padding-top: 0px;
+padding-bottom: 0px;
+}
+
+#contacto{
+background-color: #d21362;
+color: #ffffff;
+font-family: 'Saira Stencil One', cursive;
+margin-top: 10px;
+margin-bottom: 10px;
+margin-right: 10px;
+padding-top: 0px;
+padding-bottom: 0px;
+}
+#dona{
+background-color: #e64d4c;
+color: #ffffff;
+font-family: 'Saira Stencil One', cursive;
+margin-top: 10px;
+margin-bottom: 10px;
+margin-right: 10px;
+padding-top: 0px;
+padding-bottom: 0px;
+}
+
+/* Iconos navbar */
+.imgNavbar{
+height:auto;
+width: auto;
+max-height: 25px;
+max-width: 25px;
+}
+
+/*Botón flotante Dona!*/
+#fixedbutton {
+position: fixed;
+bottom: 2%;
+right: 2%;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+  }
+  
+footer {
+    padding: 25px;
+  }
+  
+.carousel-inner img {
+    width: 100%;
+    margin: auto;
+    min-height:200px;
+}
+/*seccion servicios*/
+#tituloSeccion{
+    color: #d21362;
+    font-family: 'Saira Stencil One', cursive;
+    padding-top: 1em;
+  }
+
+#imgServicios{
+    max-width: 50%;
+}
+
+.textoServicios{
+  text-align: justify;
+  padding-right: 1em;
+  padding-left: 1em;
+}
+
+.textoServiciosInfo{
+  text-align: center;
+  padding:1em;
+}
+
+/* icono footer */
+.iconosFooter{
+  width: auto;
+  height: auto;
+  max-width: 20px;
+  max-height: 20px;
+  margin-left: 10px;
+  }

@@ -1,0 +1,179 @@
+
+body {
+  background-color: #003d59;
+  
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover; 
+  background-attachment: fixed;
+}
+
+/*nav-links*/
+#inicio{
+  background-color: #d21362;
+  color: #ffffff;
+  font-family: 'Saira Stencil One', cursive;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+#servicios{
+  background-color: #d21362;
+  color: #ffffff;
+  font-family: 'Saira Stencil One', cursive;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+#medios{
+background-color: #d21362;
+color: #ffffff;
+font-family: 'Saira Stencil One', cursive;
+margin-top: 10px;
+margin-bottom: 10px;
+margin-right: 10px;
+padding-top: 0px;
+padding-bottom: 0px;
+}
+
+#calculadora{
+background-color: #d21362;
+color: #ffffff;
+font-family: 'Saira Stencil One', cursive;
+margin-top: 10px;
+margin-bottom: 10px;
+margin-right: 10px;
+padding-top: 0px;
+padding-bottom: 0px;
+}
+
+#tienda{
+background-color: #d21362;
+color: #ffffff;
+font-family: 'Saira Stencil One', cursive;
+margin-top: 10px;
+margin-bottom: 10px;
+margin-right: 10px;
+padding-top: 0px;
+padding-bottom: 0px;
+}
+
+#contacto{
+background-color: #003d59;
+color: #ffffff;
+font-family: 'Saira Stencil One', cursive;
+margin-top: 10px;
+margin-bottom: 10px;
+margin-right: 10px;
+padding-top: 0px;
+padding-bottom: 0px;
+}
+#dona{
+background-color: #e64d4c;
+color: #ffffff;
+font-family: 'Saira Stencil One', cursive;
+margin-top: 10px;
+margin-bottom: 10px;
+margin-right: 10px;
+padding-top: 0px;
+padding-bottom: 0px;
+}
+
+/* Iconos navbar */
+.imgNavbar{
+height:auto;
+width: auto;
+max-height: 25px;
+max-width: 25px;
+}
+
+/*Botón flotante Dona!*/
+#fixedbutton {
+position: fixed;
+bottom: 2%;
+right: 2%;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+  }
+  
+footer {
+    padding: 25px;
+  }
+  
+.carousel-inner img {
+    width: 100%;
+    margin: auto;
+    min-height:200px;
+}
+/*seccion contacto*/
+#tituloSeccion{
+    text-align: left;
+    color: #ffffff;
+    font-family: 'Saira Stencil One', cursive;
+    padding-top: 1em;
+  }
+
+.textoContactoInfo{
+  color: #ffffff;
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/*Botón Dona!*/
+#fixedbutton {
+  position: fixed;
+  bottom: 2%;
+  right: 2%;
+}
+
+/* etiquetas de inputs */
+.formLabels{
+  color: #ffffff;
+  text-align: right;
+
+}
+
+form-control{
+  color: #f9e4ee;
+}
+
+/* aqui */
+.aqui{
+  text-align: left;
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.infoConfi{
+  font-style: italic;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+
+.imgContacto{
+  width: auto;
+  height: auto;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+/* icono footer */
+.iconosFooter{
+  width: auto;
+  height: auto;
+  max-width: 20px;
+  max-height: 20px;
+  margin-left: 10px;
+  }

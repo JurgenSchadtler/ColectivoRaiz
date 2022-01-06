@@ -1,0 +1,209 @@
+/*nav-links*/
+#inicio{
+    background-color: #d21362;
+    color: #ffffff;
+    font-family: 'Saira Stencil One', cursive;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+#servicios{
+    background-color: #d21362;
+    color: #ffffff;
+    font-family: 'Saira Stencil One', cursive;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+#medios{
+  background-color: #d21362;
+  color: #ffffff;
+  font-family: 'Saira Stencil One', cursive;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+#calculadora{
+  background-color: #003d59;
+  color: #ffffff;
+  font-family: 'Saira Stencil One', cursive;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+#tienda{
+  background-color: #d21362;
+  color: #ffffff;
+  font-family: 'Saira Stencil One', cursive;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+#contacto{
+  background-color: #d21362;
+  color: #ffffff;
+  font-family: 'Saira Stencil One', cursive;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+#dona{
+  background-color: #e64d4c;
+  color: #ffffff;
+  font-family: 'Saira Stencil One', cursive;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+/* Iconos navbar */
+.imgNavbar{
+  height:auto;
+  width: auto;
+  max-height: 25px;
+  max-width: 25px;
+}
+
+/*Botón flotante Dona!*/
+#fixedbutton {
+  position: fixed;
+  bottom: 2%;
+  right: 2%;
+}
+
+
+
+
+/*Titulo seccion 1 (Nosotras)*/
+#imgSeccion1{
+    padding: 1em;
+}
+/*Texto e imagen seccion 1 (Nosotras)*/
+#textoSeccion1{
+    padding: 1em;
+    color: #ffffff;
+}
+/* Titulo seccion 2 (Trayectoria) */
+#imgSeccion2{
+    padding: 1em;
+}
+/*Texto e imagen seccion 2 (Trayectoria)*/
+#textoSeccion2{
+    padding: 1em;
+}
+
+.text-justify{
+    text-align: justify;
+    text-justify: inter-word;
+    color: #ffffff;
+}
+
+#tituloSeccion{
+  color: #ffffff;
+  font-family: 'Saira Stencil One', cursive;
+  padding-top: 1em;
+}
+
+#tituloAsesoria{
+  color: #d21362;
+  font-family: 'Saira Stencil One', cursive;
+  padding-top: 1em;
+}
+
+.containerCalcula{
+  background-color: #d21362;
+}
+
+.containerAsesoria{
+  background-color: #ffffff;
+}
+
+.textAsesoria{
+  color: #000000;
+}
+
+.formAsesoria{
+  color: #000000;
+}
+
+.btnEnviar{
+  margin-top: 2%;
+  background-color: #72043b;
+  border: #d21362;
+}
+
+.btnEnviar:hover{
+  background-color: #d21362;
+}
+
+.btnEnviar:active{
+  background-color: #72043b;
+}
+
+input[type=text] {
+  border: 2px solid black;
+  border-radius: 4px;
+  background-color: #f9c7df;
+}
+select{
+  border: 2px solid black;
+  border-radius: 4px;
+  background-color: #f9c7df;
+}
+
+textarea {
+  background-color: #f9c7df;
+  color: #f9c7df;
+}
+
+/* icono footer */
+.iconosFooter{
+  width: auto;
+  height: auto;
+  max-width: 20px;
+  max-height: 20px;
+  margin-left: 10px;
+  }
+
+/* tabla resultados */
+.thead-prestacion{
+  background-color: #610a3c;
+  color: #ffffff;
+}
+
+.tr-resultados{
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.tr-prima{
+  background-color: #cef95e;
+}
+
+.form-control{
+  margin-top: 10px;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}

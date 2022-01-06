@@ -1,0 +1,147 @@
+/*nav-links*/
+#inicio{
+  background-color: #d21362;
+  color: #ffffff;
+  font-family: 'Saira Stencil One', cursive;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+#servicios{
+  background-color: #d21362;
+  color: #ffffff;
+  font-family: 'Saira Stencil One', cursive;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+#medios{
+  background-color: #003d59;
+  color: #ffffff;
+  font-family: 'Saira Stencil One', cursive;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+#calculadora{
+  background-color: #d21362;
+  color: #ffffff;
+  font-family: 'Saira Stencil One', cursive;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+#tienda{
+  background-color: #d21362;
+  color: #ffffff;
+  font-family: 'Saira Stencil One', cursive;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+#contacto{
+  background-color: #d21362;
+  color: #ffffff;
+  font-family: 'Saira Stencil One', cursive;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+#dona{
+  background-color: #e64d4c;
+  color: #ffffff;
+  font-family: 'Saira Stencil One', cursive;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+/* Iconos navbar */
+.imgNavbar{
+  height:auto;
+  width: auto;
+  max-height: 25px;
+  max-width: 25px;
+}
+
+/*Botón flotante Dona!*/
+#fixedbutton {
+  position: fixed;
+  bottom: 2%;
+  right: 2%;
+}
+
+/*seccion medios*/
+#tituloSeccion{
+    color: #d21362;
+    font-family: 'Saira Stencil One', cursive;
+    padding-top: 1em;
+  }
+
+
+
+.textoMedios{
+  padding-right: 1%;
+  padding-left: 1%;
+}
+
+.textoMediosInfo{
+  text-align: center;
+  padding:1%;
+}
+
+#imgMedios{
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+/*Botón Dona!*/
+#fixedbutton {
+  position: fixed;
+  bottom: 2%;
+  right: 2%;
+}
+
+/*Botón VER LA NOTA COMPLETA*/
+.verNota{
+  background-color: #d21362;
+  color: #ffffff;
+  font-family: 'Saira Stencil One', cursive;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.containerNota{
+  margin: 1%;
+}
+
+/* icono footer */
+.iconosFooter{
+  width: auto;
+  height: auto;
+  max-width: 20px;
+  max-height: 20px;
+  margin-left: 10px;
+  }
