@@ -133,6 +133,15 @@
   padding-bottom: 0px;
 }
 
+.linkNota{
+  color: white;
+  background-color: none;
+}
+
+.linkNota:hover{
+  color: rgba(255, 255, 255, 0.466);
+}
+
 .containerNota{
   margin: 1%;
 }
