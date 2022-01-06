@@ -138,13 +138,11 @@ footer {
 /* etiquetas de inputs */
 .formLabels{
   color: #ffffff;
-  text-align: right;
+  align-items: left;
 
 }
 
-form-control{
-  color: #f9e4ee;
-}
+
 
 /* aqui */
 .aqui{
@@ -177,3 +175,30 @@ form-control{
   max-height: 20px;
   margin-left: 10px;
   }
+
+  .form-group{
+    margin-bottom: 20px;
+    border-radius: 0px;
+    
+  }
+
+  .form-control{
+    border-radius: 0px;
+    border-color: black;
+    border-width: 3px;
+    background-color: #FFE5EC;
+  }
+
+  .btn-enviar{
+    background-color: #81D761;
+    border-width: 0px;
+    border-radius: 0px;
+    color: #2C282F;
+    font-weight: 800;
+    padding: 10px 30px 10px 30px;
+    }
+
+    /* inputs style */
+#comInput{
+  height: 200px;;
+}
