@@ -5,8 +5,21 @@ function calculo(){
   //Salario
   var monto = $("input[name=salario]").val();
   
+    var peridiocidad = document.getElementById("peridiocidad");
+    var value = peridiocidad.options[peridiocidad.selectedIndex].text;
     var timeStart = new Date(document.getElementById("timeStart").value);
     var timeEnd = new Date(document.getElementById("timeEnd").value);
+
+    if(value == "Diario"){
+        monto = monto *30;
+    }else if(value == "Semanal"){
+        monto = monto * 4;
+    }else if(value =="Quincenal"){
+        monto = monto *2;
+    }else if(value == "Mensual"){
+        monto = monto;
+    }
+
     if (timeEnd > timeStart)
     {
         var diff = timeEnd.getTime() - timeStart.getTime();
@@ -81,6 +94,12 @@ function calculo(){
         $("input[name=vacaciones]").val(parseInt(vacaciones));
     }
 
+
+
+    if(dias >= 5475){
+       anti = (n2 * 12) *15;
+       $("input[name=antiguedad]").val(parseFloat(anti).toFixed(2));
+    }
   //se carga el salarioo diario
   $("input[name=diario]").val(parseFloat(n2).toFixed(2));
   //se carga el total en el campo correspondiente

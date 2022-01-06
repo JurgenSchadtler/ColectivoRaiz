@@ -159,6 +159,10 @@
   background-color: #72043b;
 }
 
+input{
+  background-color: #f9c7df;
+}
+
 input[type=text] {
   border: 2px solid black;
   border-radius: 4px;
