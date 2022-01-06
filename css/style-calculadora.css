@@ -112,7 +112,7 @@
 }
 
 .text-justify{
-    text-align: justify;
+    text-align: center;
     text-justify: inter-word;
     color: #ffffff;
 }
@@ -157,6 +157,12 @@
 
 .btnEnviar:active{
   background-color: #72043b;
+}
+
+.btnCalcular{
+  margin-top: 2%;
+  background-color: #72043b;
+  border: #d21362;
 }
 
 input{

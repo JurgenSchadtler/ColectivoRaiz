@@ -38,6 +38,9 @@
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" id="calculadora" href="calculadora.html">Calculadora de prestaciones</a>
         </li>
+        <!-- <li class="nav-item">
+          <a class="nav-link active" aria-current="page" id="tienda" href="#">Tienda</a>
+        </li> -->
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" id="contacto" href="contacto.html">Contacto</a>
         </li>
@@ -50,6 +53,9 @@
         <li class="nav-item">
           <a class="nav-link active" href="https://www.facebook.com/colectivo.raizaguascalientes/"><img class="imgNavbar" src="../img/FacebookIcon.png"></a>
         </li>
+        <!-- <li class="nav-item">
+          <a class="nav-link active" href="https://www.instagram.com/colectivoraizags/"><img class="imgNavbar" src="../img/InstagramIcon.png"></a>
+        </li> -->
       </ul>
     </div>
   </div>
@@ -67,50 +73,51 @@
           <h1 class="display-5" id="tituloSeccion">Contacto</h1>
           <div class="col-12">
             <p class="textoContactoInfo">Para nosotros es importante conocer las opiniones y las experiencias laborarles de todes, si quieres compartir tu historia o necesitas asesoría legal, llena el formulario y nos pondremos en contacto contigo.</p>
+          <br><p class="textoContactoInfo">INGRESA TUS DATOS</p>
           </div>
         </div>
       </div>
     
-  <div class="container-fluid padding bg-3 text-center">
+  <div class="container-fluid padding bg-3">
     <div class="row padding">
   <!-- Calculadora seccion 1 -->
-        <div class="col-lg-6" id="textoSeccion1">
-            <div class="form-group">
+        <div class="form-colectivo col-lg-6" id="textoSeccion1">
+            <div class="form-group col-lg-5">
               <form action="https://formsubmit.co/3c910e1ee6c343bce9417101d5a78ce6" method="POST">
                 <label class="formLabels" for="">Nombre o pseudónimo*</label>
-                <input class="form-control" type="text" name="name" value="" required>
+                <input class="form-control" id="nombreInput" type="text" name="name" value="" required>
               </div>
       
-              <div class="form-group">
+              <div class="form-group col-lg-5">
                 <label class="formLabels" for="">Género*</label>
-                <input class="form-control" type="text" name="gender" value="" required>
+                <input class="form-control" id="generoInput" type="text" name="gender" value="" required>
               </div>
       
       
-              <div class="form-group">
+              <div class="form-group col-lg-8">
                 <label class="formLabels" for="">Lugar de residencia*</label>
-                <input class="form-control" type="text"  name="lugar" value="" required>
+                <input class="form-control" id="lugarInput" type="text"  name="lugar" value="" required>
               </div>
       
-              <div class="form-group">
+              <div class="form-group col-lg-8">
                 <label class="formLabels" for="">Teléfono</label>
-                <input class="form-control" type="text" name="telefono" value="" required>
+                <input class="form-control" id="telInput" type="text" name="telefono" value="" required>
               </div>
       
               <div class="form-group">
                 <label class="formLabels" for="">Correo electrónico*</label>
-                <input class="form-control" type="text" name="email" value="" required>
+                <input class="form-control" id="correoInput" type="text" name="email" value="" required>
               </div>
       
               <div class="form-group">
                 <label class="formLabels" for="">Escribe tus comentarios*</label>
-                <input class="form-control" type="text" name="texto" value="" required>
+                <input class="form-control" id="comInput" type="text" name="texto" value="" required>
               </div>
       
               <div class="col-12">
                 <p class="infoConfi">La información que nos proporciona es confidencial, puedes revisar nuestro Aviso de privacidad <a href="#" class="aqui"> aquí</a>.</p>
               </div>
-                <button class="btn btn-primary mb-2" type="submit">Enviar</button>
+                <button class="btn-enviar btn btn-primary mb-2" type="submit">Enviar</button>
                 <input type="hidden" name="_next" value="https://colectivoraiz.org/index.html">
             </form>
         </div>
@@ -141,15 +148,16 @@
 <footer class="page-footer font-small">
 
   <!-- Texto footer -->
-  <div class="text-center py-3 text-muted">Colectivo Raíz de Aguascalientes, A.C. 2020.
-  <!-- Texto footer -->
-
-    <!-- Iconos footer -->
-    <a href="https://twitter.com/colectivoraiz" ><img src="./img/Iconos footer/iconos footer-02.svg"></a>
-    <a href="https://www.facebook.com/colectivo.raizaguascalientes/"><img src="./img/Iconos footer/iconos footer-03.svg"></a>
-    <a href=""><img src="./img/Iconos footer/iconos footer-01.svg"></a>
-    <a href="https://www.instagram.com/colectivoraizags/"><img class="iconosFooter" src="../img/Iconos footer/InstaIconFooter.png"></a>
-    <!-- Iconos footer -->
+  <div class="text-center py-3 text-muted">Colectivo Raíz de Aguascalientes, A.C. 2022.
+    <!-- Texto footer -->
+  
+      <!-- Iconos footer -->
+      <a href="https://twitter.com/colectivoraiz" ><img src="../img/Iconos footer/iconos footer-02.svg"></a>
+      <a href="https://www.facebook.com/colectivo.raizaguascalientes/"><img src="../img/Iconos footer/iconos footer-03.svg"></a>
+      <a href=""><img src="../img/Iconos footer/iconos footer-01.svg"></a>
+      <a href="https://www.instagram.com/colectivoraizags/"><img class="iconosFooter" src="../img/Iconos footer/InstaIconFooter.png"></a>
+      <br><a class="text-muted" style="text-decoration: none;" href="politicadeprivacidad.html">Política de Privacidad</a>
+      <!-- Iconos footer -->
 
   </div>
 </footer>
