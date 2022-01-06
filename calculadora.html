@@ -36,9 +36,6 @@
           <a class="nav-link active" aria-current="page" id="calculadora" href="calculadora.html">Calculadora de prestaciones</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" id="tienda" href="#">Tienda</a>
-        </li>
-        <li class="nav-item">
           <a class="nav-link active" aria-current="page" id="contacto" href="contacto.html">Contacto</a>
         </li>
         <li class="nav-item">
@@ -49,9 +46,6 @@
         </li>
         <li class="nav-item">
           <a class="nav-link active" href="https://www.facebook.com/colectivo.raizaguascalientes/"><img class="imgNavbar" src="../img/FacebookIcon.png"></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" href="https://www.instagram.com/colectivoraizags/"><img class="imgNavbar" src="../img/InstagramIcon.png"></a>
         </li>
       </ul>
     </div>
@@ -77,12 +71,26 @@
         <div class="col-lg-6  " id="textoSeccion1">
           <p class="text-justify">INGRESA TUS DATOS</p>
             <section class="calculadora">
+              <label>¿Que deseas calcular?</label>
+              <select name="calculo" class="form-control" id="calculo">
+                <option value="aguinaldo">Aguinaldo</option>
+                <option value="prima_vacaciones">Vacaciones</option>
+                <option value="prima_antiguedad">Prima por Antigüedad</option>
+              </select>
               <label>Salario</label>
-              <input type="text" name="salario" class="form-control" placeholder="Salario" onChange="calculo()">
+              <input type="text" name="salario" class="form-control" placeholder="Salario" >
+              <label>Peridiocidad</label>
+              <select name="peridiocidad" class="form-control" id="peridiocidad">
+                <option value="diario">Diario</option>
+                <option value="semanal">Semanal</option>
+                <option value="quincenal">Quincenal</option>
+                <option value="mensual">Mensual</option>
+              </select>
               <label>Fecha de inicio</label>
               <input type="date" id="timeStart" class="form-control" oninput="calculo()">
               <label>Fecha fin</label>
               <input type="date" id="timeEnd" class="form-control" oninput="calculo()">
+              <button class="form-control" onClick="calculo()">Calcular</button>
             </section>
         </div>
   <!-- Calculadora seccion 1 -->
@@ -124,6 +132,12 @@
                   <td>
                     <label>Prima Vacacional</label>
                     <input type="text" name="prima" class="form-control" placeholder="Prima Vacacional" readonly>
+                  </td>
+                </tr>
+                <tr class="tr-prima">
+                  <td>
+                    <label>Prima de Antigüedad</label>
+                    <input type="text" name="antiguedad" class="form-control" placeholder="Prima Antigüedad" readonly>
                   </td>
                 </tr>
               </tbody>
