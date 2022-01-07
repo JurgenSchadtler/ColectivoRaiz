@@ -35,7 +35,7 @@ function calculo(){
 
   //Calcular prima vacacional
   
-  if(dias == 365){
+  if(dias >= 365){
      
     var vacaciones = 6;
     var prima = n2 * vacaciones * .25 ;
